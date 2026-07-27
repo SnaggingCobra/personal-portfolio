@@ -1,48 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header class="navbar">
-
-            <h2 class="logo">My Portfolio</h2>
-
+            <div class="logo">Prajwol</div>
             <nav>
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </nav>
-
         </header>
-            <h1>Welcome to My Personal Portfolio</h1>
-            
-            <div class="container" id="about">
-                <h2>About Me</h2>
-                <p>Hello! im a bsc csit student in nepal. im 18 years old. i love beiing around and exploring new places.</p>
-            </div>
-            <div class="container" id="projects">
-                <h2>Projects</h2>
-                
-                <div class="card">
-                    <h3>Stardance</h3>
-                    <p>A futuristic personal portfolio website.</p>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="hero-intro">
+                        <p class="eyebrow">Web Developer & AI Enthusiast</p>
+                        <h1>Hi, I'm <span>Prajwol Gyawali</span></h1>
+                        <p class="hero-copy">BSc CSIT student based in Kathmandu, Nepal. I enjoy building modern interfaces, improving user experiences, and learning new web technologies.</p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn">View Projects</a>
+                            <a href="#contact" class="btn secondary">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="hero-card">
+                        <img src="stock/images/profile.jpg" alt="Profile" class="profile">
+                        <div class="hero-stats">
+                            <div>
+                                <strong>18</strong>
+                                <span>Years old</span>
+                            </div>
+                            <div>
+                                <strong>3+</strong>
+                                <span>Projects</span>
+                            </div>
+                            <div>
+                                <strong>100%</strong>
+                                <span>Passion</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-           
-            <div class="container" id="contact">
+            </section>
+
+            <section id="about" class="box">
+                <h2>About Me</h2>
+                <p>I am a passionate BSc CSIT student from Nepal who loves creating clean, responsive websites and exploring new technologies. I focus on delivering intuitive design with modern styling and smooth user interactions.</p>
+            </section>
+
+            <section id="projects" class="box">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <h3>Stardance</h3>
+                        <p>A futuristic portfolio website with glassmorphism styling and animated interactions.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Modern Landing</h3>
+                        <p>A responsive landing page concept built to showcase clean typography and strong calls to action.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="box">
                 <h2>Contact</h2>
-                <p>  Email:<a href="mailto:gyawali.prajwol65@gmail.com">gyawali.prajwol65@gmail.com</a>
-</p>
-                <p>Phone: +977-9768249799</p>
-                <p>Address: Kathmandu, Nepal</p>
-            </div>
-        <footer>
+                <div class="contact-grid">
+                    <div>
+                        <p><strong>Email</strong></p>
+                        <a href="mailto:gyawali.prajwol65@gmail.com">gyawali.prajwol65@gmail.com</a>
+                    </div>
+                    <div>
+                        <p><strong>Phone</strong></p>
+                        <p>+977 9768249799</p>
+                    </div>
+                    <div>
+                        <p><strong>Location</strong></p>
+                        <p>Kathmandu, Nepal</p>
+                    </div>
+                </div>
+            </section>
+        </main>
 
+        <footer class="footer">
             <p>© 2026 Prajwol Gyawali</p>
-
         </footer>
-        
     </body>
 </html>
